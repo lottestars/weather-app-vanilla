@@ -17,28 +17,43 @@
   </head>
   <body>
     <div class="container">
-      <div class="weather-app">
-        <h1>Leeds</h1>
+      <div class="weather-app-wrapper">
+        <div class="weather-app">
+          <h1>Leeds</h1>
 
-        <ul>
-          <li>Saturday 12 June 20:32</li>
-          <li>Clear</li>
-        </ul>
+          <ul>
+            <li>Saturday 12 June 20:32</li>
+            <li>Clear</li>
+          </ul>
 
-        <div class="row">
-          <div class="col-6">☀️ 17 º C | F</div>
-          <div class="col-6">
-            Humidity: 70%<br />
-            Wind speed: 11 mph
+          <div class="row">
+            <div class="col-6">
+              <div class="clearfix weather-temperature">
+                <img
+                  src="https://icon-library.com/images/sunny-weather-icon/sunny-weather-icon-13.jpg"
+                  alt="Clear"
+                  class="float-left"
+                />
+                <strong>17</strong>
+                <span class="units">ºC | <a href="£">F</a> </span>
+              </div>
+            </div>
+            <div class="col-6">
+              <ul>
+                <li>Precipitation: 10%</li>
+                <li>Humidity: 70%</li>
+                <li>Wind speed: 11 mph</li>
+              </ul>
+            </div>
           </div>
         </div>
+        <small>
+          <a href="https://github.com/lottestars/weather-app-vanilla">
+            Open-source code
+          </a>
+          , by Charlotte
+        </small>
       </div>
-      <small>
-        <a href="https://github.com/lottestars/weather-app-vanilla">
-          Open-source code
-        </a>
-        , by Charlotte
-      </small>
     </div>
     <script src="src/app.js"></script>
   </body>
