@@ -56,3 +56,16 @@ li first-letter {
   top: -34px;
   color: rgb(97, 95, 95);
 }
+
+a {
+  text-decoration: none;
+}
+
+.weather-temperature .active {
+  color: rgb(97, 95, 95);
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
